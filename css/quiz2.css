@@ -1,0 +1,27 @@
+/*Write more CSS to do the following:
+ - a transition on the section elements that when hovered on, the background color changes to something else
+ - give a border to the section elements and a border radius of 10px
+ - set up the document to use ems or rems based off of a 62.5% root font size
+ - a transition that moves the <p> tags over a few pixels when you hover over them (and back when you aren't hovering)*/
+
+html, bdy {
+	font-family: Helvetica, Arial, sans-serif;
+	background: #eeee;
+}
+
+p {
+	margin: 10px 0;
+	font-weight: bold
+}
+
+section {
+	margin-bottom: 10px;
+}
+
+ul {
+	list-style: none;
+}
+
+ul {
+	list-style: none;
+}
