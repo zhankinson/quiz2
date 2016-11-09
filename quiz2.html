@@ -1,41 +1,68 @@
-<doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-400000">
-	
-</head>
-<body>
-	<h1>Welcome To The Wonderful World of Debugging Code</h1>
+	<head>
+		<meta charset="UTF-8">
+		<meta content="author: Matt Bowytz">
+		<title>Quiz 2</title>
+		<link rel="stylesheet" href="css/quiz2.css">
+	</head>
+	<body>
+		<h1>Welcome To The Wonderful World of Debugging Code</h1>
 
-	<section id="mainSection">
-		<p>This is a paragraph, I promise.</p
+		<section id="mainSection">
+			<div>
+				<p>This is a paragraph, I promise.</p>
+			</div>
 
-		<ul class="links">
-			<li>
-				<a>Link 1<a>
-			</li>
-			<li>
-				<a href="#">Link 2</a>
-			</li>
-			<li>
-				<a href="#">Link 487
-			</li>
-		</ul>
-	
+			<ul class="links">
+				<li>
+					<a href="#">Link 1</a>
+				</li>
+				<li>
+					<a href="#">Link 2</a>
+				</li>
+				<li>
+					<a href="#">Link 487</a>
+				</li>
+			</ul>
+		</section>
 
-	<p>I am a lonely paragraph, with no immediate parent.</p>
+		<div>
+			<p>I am a lonely paragraph, with no immediate parent.</p>
+		</div>
+		<label>
+			<input id="master" type="checkbox" onclick="accordion()">Instruments you can play
+		</label></br>
+		<fieldset id="members">
+			<label>
+				<input class="member" type="checkbox" name="piano" value="Piano">Piano
+			</label></br>
+			<label>
+				<input class="member" type="checkbox" name="guitar" value="Guitar">Guitar
+			</label></br>
+			<label>
+				<input class="member" type="checkbox" name="accordion" value="Not the accordion">Not the accordion!
+			</label></br>
+		</fieldset>
 
-	<section id=secondarySection>
-		<p>Woop woop!!!</p>
-		<p>See how elegantly we're spaced out?</p>
-		<p>Yeah, we're spaced out alright.<//p>
-		
-		<ol>
-			<li>I'm like an unordered list</li>	
-			<li>But I'm more orderly<li>
-			<li>That was a really bad joke.</li>
-		<ol>
-	</section>
-	
-</body>
-</hmtl>
+
+		</br>
+
+		<section id="secondarySection">
+			<div class="">
+				<p>Woop woop!!!</p>
+				<p>See how elegantly we're spaced out?</p>
+				<p>Yeah, we're spaced out alright.</p>
+			</div>
+
+			<ol id="order">
+				<li>I'm like an unordered list</li>
+				<li>But I'm more orderly</li>
+				<li>That was a really bad joke.</li>
+			</ol>
+		</section>
+		<button class="fade" type="button" name="button">Bye Bye!</button>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="js/quiz2.js"></script>
+	</body>
+</html>
